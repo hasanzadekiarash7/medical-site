@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "@nuxtjs/color-mode",
     "@pinia-plugin-persistedstate/nuxt",
-    "nuxt-icon-tw",
     "@nuxt/fonts",
     "@nuxt/icon",
     "nuxt-swiper",
@@ -54,4 +53,9 @@ export default defineNuxtConfig({
       tabletWide: 900,
     },
   },
+  icon: {
+    serverBundle: {
+      collections: ['mdi']
+    }
+  }
 });

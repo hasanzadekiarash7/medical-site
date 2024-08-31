@@ -1,0 +1,49 @@
+@import './skeleton.scss';
+
+//** navbar part
+.navbar {
+    &-top {
+        &-fallow_us {
+            div {
+                width: 28px;
+                height: 28px;
+                padding: 5px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                color: #fff;
+
+                &:hover {
+                    filter: brightness(70%);
+                    -webkit-filter: brightness(70%);
+                }
+
+                &:first-child {
+                    background-color: $blue-400;
+                }
+
+                &:last-child {
+                    background-color: $red-600;
+                }
+
+                &:nth-child(2) {
+                    background-color: $rose-500;
+                }
+
+                &:nth-child(3) {
+                    background-color: $green-400;
+                }
+
+                &:nth-child(4) {
+                    background-color: $zinc-500;
+                }
+
+                &:nth-child(5) {
+                    background-color: $sky-400;
+                }
+            }
+        }
+    }
+}

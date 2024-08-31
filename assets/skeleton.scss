@@ -4653,18 +4653,21 @@ li {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.max-width-1200{
+.max-width-1200 {
     max-width: 1200px;
 }
+
 /* #endregion */
 
-body{
+body {
     font-family: "Roboto", sans-serif !important;
 }
-.width-full{
+
+.width-full {
     width: 100%;
 }
-.text-capitalize{
+
+.text-capitalize {
     text-transform: capitalize;
 }
 
@@ -4677,16 +4680,37 @@ body{
         -o-transition: all 0.5s ease-in-out;
         cursor: pointer;
     }
+
     &:hover {
         img {
             filter: brightness(70%);
             -webkit-filter: brightness(70%);
-}
-        .avatar{
-            img{
+        }
+
+        .avatar {
+            img {
                 filter: brightness(100%);
                 -webkit-filter: brightness(100%);
-}
+            }
         }
     }
+}
+
+
+.height-full {
+    height: 100%;
+}
+
+.hover-btn {
+    &:hover {
+        filter: brightness(90%);
+        -webkit-filter: brightness(90%);
+    }
+}
+
+.font-stylic {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700 !important;
+    font-style: normal;
 }

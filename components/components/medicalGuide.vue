@@ -9,7 +9,7 @@
       style="gap: 5px"
       v-for="item in cards"
     >
-      <Icon :name="item.icon" />
+      <Icon :name="item.icon" size="60" />
       <h1 class="text-center font-size-5">{{ item.title }}</h1>
       <p class="text-center font-size-4">
         {{ item.description }}

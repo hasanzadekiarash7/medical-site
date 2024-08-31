@@ -6,7 +6,7 @@
     <main>
       <slot />
     </main>
-    <footer class="width-full bg-zinc-900 mt-5 d-flex flex-center">
+    <footer class="width-full bg-zinc-900 d-flex flex-center">
       <div
         class="max-width-1200 width-full pa-6 d-flex flex-space-between"
         style="gap: 10px"

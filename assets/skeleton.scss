@@ -1,5 +1,6 @@
+@import './variables';
+
 // basic details for creating good websites
-// @import './variables';
 * {
     padding: 0;
     margin: 0;
@@ -1556,6 +1557,550 @@ li {
     -o-border-radius: $radius-10;
 }
 
+/* #endregion */
+
+/* #region [border and outline] */
+.border-wa-1 {
+    border-width: $border-1;
+}
+
+.border-wa-2 {
+    border-width: $border-2;
+}
+
+.border-wa-3 {
+    border-width: $border-3;
+}
+
+.border-wa-4 {
+    border-width: $border-4;
+}
+
+.border-wa-5 {
+    border-width: $border-5;
+}
+
+.border-wa-6 {
+    border-width: $border-6;
+}
+
+.border-wa-7 {
+    border-width: $border-7;
+}
+
+.border-wa-8 {
+    border-width: $border-8;
+}
+
+.border-wa-9 {
+    border-width: $border-9;
+}
+
+.border-wa-10 {
+    border-width: $border-10;
+}
+
+.border-wa-11 {
+    border-width: $border-11;
+}
+
+.border-wa-12 {
+    border-width: $border-12;
+}
+
+.border-wa-13 {
+    border-width: $border-13;
+}
+
+.border-wa-14 {
+    border-width: $border-14;
+}
+
+.border-wa-15 {
+    border-width: $border-15;
+}
+
+.border-wa-16 {
+    border-width: $border-16;
+}
+
+.border-wa-17 {
+    border-width: $border-17;
+}
+
+.border-wa-18 {
+    border-width: $border-18;
+}
+
+.border-wa-19 {
+    border-width: $border-19;
+}
+
+.border-wa-20 {
+    border-width: $border-20;
+}
+
+.border-wa-21 {
+    border-width: $border-21;
+}
+
+.border-wt-1 {
+    border-top-width: $border-1;
+}
+
+.border-wt-2 {
+    border-top-width: $border-2;
+}
+
+.border-wt-3 {
+    border-top-width: $border-3;
+}
+
+.border-wt-4 {
+    border-top-width: $border-4;
+}
+
+.border-wt-5 {
+    border-top-width: $border-5;
+}
+
+.border-wt-6 {
+    border-top-width: $border-6;
+}
+
+.border-wt-7 {
+    border-top-width: $border-7;
+}
+
+.border-wt-8 {
+    border-top-width: $border-8;
+}
+
+.border-wt-9 {
+    border-top-width: $border-9;
+}
+
+.border-wt-10 {
+    border-top-width: $border-10;
+}
+
+.border-wt-11 {
+    border-top-width: $border-11;
+}
+
+.border-wt-12 {
+    border-top-width: $border-12;
+}
+
+.border-wt-13 {
+    border-top-width: $border-13;
+}
+
+.border-wt-14 {
+    border-top-width: $border-14;
+}
+
+.border-wt-15 {
+    border-top-width: $border-15;
+}
+
+.border-wt-16 {
+    border-top-width: $border-16;
+}
+
+.border-wt-17 {
+    border-top-width: $border-17;
+}
+
+.border-wt-18 {
+    border-top-width: $border-18;
+}
+
+.border-wt-19 {
+    border-top-width: $border-19;
+}
+
+.border-wt-20 {
+    border-top-width: $border-20;
+}
+
+.border-wt-21 {
+    border-top-width: $border-21;
+}
+
+.border-wb-1 {
+    border-bottom-width: $border-1;
+}
+
+.border-wb-2 {
+    border-bottom-width: $border-2;
+}
+
+.border-wb-3 {
+    border-bottom-width: $border-3;
+}
+
+.border-wb-4 {
+    border-bottom-width: $border-4;
+}
+
+.border-wb-5 {
+    border-bottom-width: $border-5;
+}
+
+.border-wb-6 {
+    border-bottom-width: $border-6;
+}
+
+.border-wb-7 {
+    border-bottom-width: $border-7;
+}
+
+.border-wb-8 {
+    border-bottom-width: $border-8;
+}
+
+.border-wb-9 {
+    border-bottom-width: $border-9;
+}
+
+.border-wb-10 {
+    border-bottom-width: $border-10;
+}
+
+.border-wb-11 {
+    border-bottom-width: $border-11;
+}
+
+.border-wb-12 {
+    border-bottom-width: $border-12;
+}
+
+.border-wb-13 {
+    border-bottom-width: $border-13;
+}
+
+.border-wb-14 {
+    border-bottom-width: $border-14;
+}
+
+.border-wb-15 {
+    border-bottom-width: $border-15;
+}
+
+.border-wb-16 {
+    border-bottom-width: $border-16;
+}
+
+.border-wb-17 {
+    border-bottom-width: $border-17;
+}
+
+.border-wb-18 {
+    border-bottom-width: $border-18;
+}
+
+.border-wb-19 {
+    border-bottom-width: $border-19;
+}
+
+.border-wb-20 {
+    border-bottom-width: $border-20;
+}
+
+.border-wb-21 {
+    border-bottom-width: $border-21;
+}
+
+.border-wl-1 {
+    border-left-width: $border-1;
+}
+
+.border-wl-2 {
+    border-left-width: $border-2;
+}
+
+.border-wl-3 {
+    border-left-width: $border-3;
+}
+
+.border-wl-4 {
+    border-left-width: $border-4;
+}
+
+.border-wl-5 {
+    border-left-width: $border-5;
+}
+
+.border-wl-6 {
+    border-left-width: $border-6;
+}
+
+.border-wl-7 {
+    border-left-width: $border-7;
+}
+
+.border-wl-8 {
+    border-left-width: $border-8;
+}
+
+.border-wl-9 {
+    border-left-width: $border-9;
+}
+
+.border-wl-10 {
+    border-left-width: $border-10;
+}
+
+.border-wl-11 {
+    border-left-width: $border-11;
+}
+
+.border-wl-12 {
+    border-left-width: $border-12;
+}
+
+.border-wl-13 {
+    border-left-width: $border-13;
+}
+
+.border-wl-14 {
+    border-left-width: $border-14;
+}
+
+.border-wl-15 {
+    border-left-width: $border-15;
+}
+
+.border-wl-16 {
+    border-left-width: $border-16;
+}
+
+.border-wl-17 {
+    border-left-width: $border-17;
+}
+
+.border-wl-18 {
+    border-left-width: $border-18;
+}
+
+.border-wl-19 {
+    border-left-width: $border-19;
+}
+
+.border-wl-20 {
+    border-left-width: $border-20;
+}
+
+.border-wl-21 {
+    border-left-width: $border-21;
+}
+
+.border-wr-1 {
+    border-right-width: $border-1;
+}
+
+.border-wr-2 {
+    border-right-width: $border-2;
+}
+
+.border-wr-3 {
+    border-right-width: $border-3;
+}
+
+.border-wr-4 {
+    border-right-width: $border-4;
+}
+
+.border-wr-5 {
+    border-right-width: $border-5;
+}
+
+.border-wr-6 {
+    border-right-width: $border-6;
+}
+
+.border-wr-7 {
+    border-right-width: $border-7;
+}
+
+.border-wr-8 {
+    border-right-width: $border-8;
+}
+
+.border-wr-9 {
+    border-right-width: $border-9;
+}
+
+.border-wr-10 {
+    border-right-width: $border-10;
+}
+
+.border-wr-11 {
+    border-right-width: $border-11;
+}
+
+.border-wr-12 {
+    border-right-width: $border-12;
+}
+
+.border-wr-13 {
+    border-right-width: $border-13;
+}
+
+.border-wr-14 {
+    border-right-width: $border-14;
+}
+
+.border-wr-15 {
+    border-right-width: $border-15;
+}
+
+.border-wr-16 {
+    border-right-width: $border-16;
+}
+
+.border-wr-17 {
+    border-right-width: $border-17;
+}
+
+.border-wr-18 {
+    border-right-width: $border-18;
+}
+
+.border-wr-19 {
+    border-right-width: $border-19;
+}
+
+.border-wr-20 {
+    border-right-width: $border-20;
+}
+
+.border-wr-21 {
+    border-right-width: $border-21;
+}
+
+.outline-wa-1 {
+    outline-width: $outline-1;
+}
+
+.outline-wa-2 {
+    outline-width: $outline-2;
+}
+
+.outline-wa-3 {
+    outline-width: $outline-3;
+}
+
+.outline-wa-4 {
+    outline-width: $outline-4;
+}
+
+.outline-wa-5 {
+    outline-width: $outline-5;
+}
+
+.outline-wa-6 {
+    outline-width: $outline-6;
+}
+
+.outline-wa-7 {
+    outline-width: $outline-7;
+}
+
+.outline-wa-8 {
+    outline-width: $outline-8;
+}
+
+.outline-wa-9 {
+    outline-width: $outline-9;
+}
+
+.outline-wa-10 {
+    outline-width: $outline-10;
+}
+
+.outline-wa-11 {
+    outline-width: $outline-11;
+}
+
+.outline-wa-12 {
+    outline-width: $outline-12;
+}
+
+.outline-wa-13 {
+    outline-width: $outline-13;
+}
+
+.outline-wa-14 {
+    outline-width: $outline-14;
+}
+
+.outline-wa-15 {
+    outline-width: $outline-15;
+}
+
+.outline-wa-16 {
+    outline-width: $outline-16;
+}
+
+.outline-wa-17 {
+    outline-width: $outline-17;
+}
+
+.outline-wa-18 {
+    outline-width: $outline-18;
+}
+
+.outline-wa-19 {
+    outline-width: $outline-19;
+}
+
+.outline-wa-20 {
+    outline-width: $outline-20;
+}
+
+.outline-wa-21 {
+    outline-width: $outline-21;
+}
+
+.line-solid {
+    border-style: solid;
+}
+
+.line-dashed {
+    border-style: dashed;
+}
+
+.line-dotted {
+    border-style: dotted;
+}
+
+.line-double {
+    border-style: double;
+}
+
+.line-groove {
+    border-style: groove;
+}
+
+.line-hidden {
+    border-style: hidden;
+}
+
+.border-none {
+    border: none;
+}
+
+.outline-none {
+    outline: none;
+}
+.border-transparent{
+    border-color: transparent;
+}
+.outline-transparent{
+    outline: transparent;
+}
 /* #endregion */
 
 /* #region [ color class ] */
@@ -4327,6 +4872,14 @@ li {
     background-color: $black;
 }
 
+.bg-transparent{
+    background-color: transparent;
+}
+
+.text-transparent{
+    color: transparent;
+}
+
 /* #endregion */
 
 /* #region [position mouse-cursor text-alignment] */
@@ -4396,6 +4949,23 @@ li {
 
 .text-justify {
     text-align: justify;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-hidden {
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 /* #endregion */
@@ -4653,23 +5223,299 @@ li {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+/* #endregion */
+
+/* #region [width and height class] */
+.max-width-1900 {
+    max-width: 1900px;
+}
+
+.max-width-1440 {
+    max-width: 1440px;
+}
+
 .max-width-1200 {
     max-width: 1200px;
 }
 
-/* #endregion */
+.max-width-900 {
+    max-width: 900px;
+}
 
-body {
-    font-family: "Roboto", sans-serif !important;
+.max-width-700 {
+    max-width: 700px;
+}
+
+.max-width-450 {
+    max-width: 450px;
 }
 
 .width-full {
     width: 100%;
 }
 
-.text-capitalize {
-    text-transform: capitalize;
+.width-window {
+    width: 100vw;
 }
+
+.height-full {
+    height: 100%;
+}
+
+.height-window {
+    height: 100vh;
+}
+
+.max-height-1900 {
+    max-height: 1900px;
+}
+
+.max-height-1440 {
+    max-height: 1440px;
+}
+
+.max-height-1200 {
+    max-height: 1200px;
+}
+
+.max-height-900 {
+    max-height: 900px;
+}
+
+.max-height-700 {
+    max-height: 700px;
+}
+
+.max-height-450 {
+    max-height: 450px;
+}
+
+/* #endregion */
+
+/* #region [line height] */
+.line-space-1{line-height: 4px * 1;}
+.line-space-2{line-height: 4px * 2;}
+.line-space-3{line-height: 4px * 3;}
+.line-space-4{line-height: 4px * 4;}
+.line-space-5{line-height: 4px * 5;}
+.line-space-6{line-height: 4px * 6;}
+.line-space-7{line-height: 4px * 7;}
+.line-space-8{line-height: 4px * 8;}
+.line-space-9{line-height: 4px * 9;}
+.line-space-10{line-height: 4px * 10;}
+.line-space-11{line-height: 4px * 11;}
+.line-space-12{line-height: 4px * 12;}
+.line-space-13{line-height: 4px * 13;}
+.line-space-14{line-height: 4px * 14;}
+.line-space-15{line-height: 4px * 15;}
+.line-space-16{line-height: 4px * 16;}
+.line-space-17{line-height: 4px * 17;}
+.line-space-18{line-height: 4px * 18;}
+.line-space-19{line-height: 4px * 19;}
+.line-space-20{line-height: 4px * 20;}
+/* #endregion */
+
+/* #region [shadow] */
+.shadow-1{box-shadow: 1px 1px 10px 0 rgba($color: $black, $alpha: 0.4);}
+.shadow-2{box-shadow: 2px 2px 10px 0 rgba($color: $black, $alpha: 0.4);}
+.shadow-3{box-shadow: 3px 3px 10px 0 rgba($color: $black, $alpha: 0.4);}
+.shadow-4{box-shadow: 4px 4px 10px 0 rgba($color: $black, $alpha: 0.4);}
+.shadow-5{box-shadow: 5px 5px 10px 0 rgba($color: $black, $alpha: 0.4);}
+.shadow-6{box-shadow: 6px 6px 10px 0 rgba($color: $black, $alpha: 0.4);}
+.shadow-7{box-shadow: 7px 7px 10px 0 rgba($color: $black, $alpha: 0.4);}
+.shadow-8{box-shadow: 8px 8px 10px 0 rgba($color: $black, $alpha: 0.4);}
+.shadow-9{box-shadow: 9px 9px 10px 0 rgba($color: $black, $alpha: 0.4);}
+.shadow-10{box-shadow: 10px 10px 10px 0 rgba($color: $black, $alpha: 0.4);}
+/* #endregion */
+
+/* #region [opacify] */
+
+// !! nuxt fonts plugin required
+/* #region [styled-font]*/
+.font-Roboto {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.font-SUSE {
+    font-family: "SUSE", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Sevillana {
+    font-family: "Sevillana", cursive;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Open-Sans {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth"100;
+}
+
+.font-Nerko-one {
+    font-family: "Nerko One", cursive;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Poppins {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Lato {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Inter {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Inter {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-PlayWrite-cuba {
+    font-family: "Playx``Write CU", cursive;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Oswald {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Handjet {
+    font-family: "Handjet", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Raleway {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Baskervvile {
+    font-family: "Baskervvile", serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Nunito {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Rubik {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Ubuntu {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Merriweather {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Kanit {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Manrope {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-New-amsterdam {
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Lora {
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Mulish {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Barlow-condensed {
+    font-family: "Barlow Condensed", system-ui;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Quicksand {
+    font-family: "Quicksand", system-ui;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Titillium-web {
+    font-family: "Titillium Web", system-ui;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Space-grotesk {
+    font-family: "Space Grotesk", system-ui;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Protest-guerilla {
+    font-family: "Protest Guerilla", system-ui;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-Karla {
+    font-family: "Karla", system-ui;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.font-lalezar {
+    font-family: "Lalezar", sans-serif, serif;
+}
+
+.font-vazir {
+    font-family: "Vazirmatn", sans-serif;
+}
+
+// others in near feature.....
+/* #endregion */
 
 .hover-style-pack {
     img {
@@ -4695,19 +5541,12 @@ body {
         }
     }
 }
-
-
-.height-full {
-    height: 100%;
-}
-
 .hover-btn {
     &:hover {
         filter: brightness(90%);
         -webkit-filter: brightness(90%);
     }
 }
-
 .font-stylic {
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;

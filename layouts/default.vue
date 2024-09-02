@@ -1,7 +1,8 @@
 <template>
   <div>
     <header>
-      <navbar />
+      <!-- <navbar /> -->
+       <!-- <simple-nav /> -->
     </header>
     <main>
       <slot />

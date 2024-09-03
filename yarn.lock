@@ -682,6 +682,13 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/flag@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@iconify-json/flag/-/flag-1.2.0.tgz#d3f856379a94a203f7494f1573fc88e422004c16"
+  integrity sha512-1rbPZFJE9LUIow/oksKy5WXC8pWr2lYnstdWIcJ7C0iOPBF2C5QTCSAtY1NpzFdUrJhHkbYR0nuCJW0QO3OHeA==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/ion@^1.1.19":
   version "1.1.19"
   resolved "https://registry.yarnpkg.com/@iconify-json/ion/-/ion-1.1.19.tgz#9a0642e6ea515c219c03daf9b59bf3bb559582fc"
